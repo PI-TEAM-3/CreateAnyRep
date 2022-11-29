@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Finance.Infrastructure\Finance.Infrastructure.csproj" />
+    <ProjectReference Include="..\Finance.ViewModel\Finance.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
